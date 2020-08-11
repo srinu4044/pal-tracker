@@ -9,8 +9,6 @@ public class InMemoryTimeEntryRepository implements TimeEntryRepository{
     Long counter=0l;
     HashMap<Long,TimeEntry> repo=new HashMap<>();
 
-
-
     @Override
     public TimeEntry create(TimeEntry timeEntry) {
         ++counter;
