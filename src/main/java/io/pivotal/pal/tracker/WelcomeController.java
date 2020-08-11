@@ -14,6 +14,7 @@ public class WelcomeController {
 
 
      public  WelcomeController(@Value("${welcome.message}")String msg) {
+        System.out.println("Hi ....."+message);
         this.message=msg;
 
     }
